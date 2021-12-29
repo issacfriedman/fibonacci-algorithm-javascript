@@ -1,6 +1,6 @@
 
 
-# Fibonacci Algorithm Javascript
+# [Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_number) [Algorithm Javascript](https://medium.com/developers-writing/fibonacci-sequence-algorithm-in-javascript-b253dc7e320e)
 
 A few halpfull functions to callculate the Fibonacci sequence 
 
