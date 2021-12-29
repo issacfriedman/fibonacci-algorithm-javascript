@@ -1,8 +1,4 @@
-// ============================================
 
-//    PASSED
-
-// ============================================
 
 function fib(endNum, begin = 1, current = 1, prev = 1, round = 1) {
   if (begin !== 1 && round === 1) {
@@ -13,11 +9,7 @@ function fib(endNum, begin = 1, current = 1, prev = 1, round = 1) {
   return fib(endNum, begin, current + prev, current, round + 1);
 }
 
-// ============================================
 
-//    PASSED
-
-// ============================================
 
 function fibNext(endNum, begin = 1, current = 1, prev = 1, round = 1) {
   if (begin !== 1 && round === 1) {
@@ -30,11 +22,7 @@ function fibNext(endNum, begin = 1, current = 1, prev = 1, round = 1) {
   return fibNext(endNum, begin, current + prev, current, round + 1);
 }
 
-// ============================================
 
-//    PASSED
-
-// ============================================
 
 function fibReverse(endNum, begin = 1, current = 1, prev = 1, round = 1) {
   if (begin !== 1 && round === 1) {
@@ -46,11 +34,7 @@ function fibReverse(endNum, begin = 1, current = 1, prev = 1, round = 1) {
   return fibReverse(endNum, begin, current + prev, current, round + 1);
 }
 
-// ============================================
 
-//    PASSED
-
-// ============================================
 
 function fibMaxBeforeNumber(
   endNum,
@@ -69,11 +53,7 @@ function fibMaxBeforeNumber(
   return fibMaxBeforeNumber(endNum, begin, current + prev, current, round + 1);
 }
 
-// ============================================
 
-//    TESTS
-
-// ============================================
 
 // console.log(fibNext(15, 15)); // should return 30
 // console.log(fibNext(17, 15)); // => not a fib number
