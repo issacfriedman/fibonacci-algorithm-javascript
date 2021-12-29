@@ -1,4 +1,5 @@
 
+
 # Fibonacci Algorithm Javascript
 
 A few halpfull functions to callculate the Fibonacci sequence 
@@ -100,3 +101,19 @@ function fibReverse(endNum, begin = 1, current = 1, prev = 1, round = 1) {
   return fibReverse(endNum, begin, current + prev, current, round + 1);
 }
 ```
+
+## fibMaxBeforeNumber
+fibMaxBeforeNumber will return the highest Fibonacci number before the number you give
+for exemple 
+```javascript 
+fibMaxBeforeNumber(40) => 34
+fibMaxBeforeNumber(45) => 34 
+```
+As the Fibonacci sequence is 21 34 55 etc. the highest number before is 34 
+you can also plug in a begin number 
+for exemple 
+```javascript 
+fibMaxBeforeNumber(100, 15) => 75
+```
+As the Fibonacci sequence is 45 75 120 etc. the highest number before is 75
+ 
